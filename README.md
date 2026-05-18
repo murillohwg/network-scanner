@@ -36,7 +36,7 @@ Linux: sudo apt install nmap
 
 # Instalação
 
-git clone [https://github.com/murillohwg/Network-Scanner.git](https://github.com/murillohwg/Network-Scanner.git)
+git clone [https://github.com/murillohwg/Network-Scanner.git](https://github.com/murillohwg/network-scanner.git)
 cd Network-Scanner
 
 ---
