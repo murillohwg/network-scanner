@@ -1,8 +1,12 @@
-🛡️ Network Scanner Pro (Multiplataforma)
+## Network Scanner (Multiplataforma)
+
+---
 
 Uma ferramenta de auditoria de rede robusta e multiplataforma desenvolvida em Python. Combina a potência do Nmap com a automação de scripts para detectar dispositivos e vulnerabilidades em redes locais (Windows/Linux).
 
-🚀 Funcionalidades Principais
+---
+
+## Funcionalidades Principais
 
 Auto-Discovery Universal: Detecta automaticamente o IP local e a faixa de rede (Subnet) tanto no Windows quanto no Linux (Kali/Ubuntu), utilizando Sockets nativos para identificar a interface de saída correta.
 
@@ -12,9 +16,13 @@ Auditoria Completa (Logs): Todas as varreduras e erros são registrados em scann
 
 Tratamento de Erros: Verifica automaticamente se o Nmap está instalado no PATH do sistema antes de executar, fornecendo instruções claras caso esteja em falta.
 
-🛠️ Como Usar
+---
 
-Pré-requisitos
+## Como Usar
+
+---
+
+# Pré-requisitos
 
 Python 3.x instalado.
 
@@ -24,13 +32,16 @@ Windows: Baixe em nmap.org
 
 Linux: sudo apt install nmap
 
-Instalação
+---
+
+# Instalação
 
 git clone [https://github.com/murillohwg/Network-Scanner.git](https://github.com/murillohwg/Network-Scanner.git)
 cd Network-Scanner
 
+---
 
-Execução
+# Execução
 
 Basta rodar o script. Ele detectará a sua rede automaticamente.
 
@@ -39,7 +50,9 @@ python3 network_scanner.py
 
 Nota: No Linux, recomenda-se o uso de sudo para uma deteção de Sistema Operativo (OS Fingerprinting) mais precisa.
 
-📝 Logs e Relatórios
+---
+
+# Logs e Relatórios
 
 Logs: Consulte scanner_ops.log para histórico de execução e debugging.
 
@@ -50,7 +63,7 @@ Relatórios: Os resultados técnicos do Nmap são salvos na pasta relatorios_red
 2023-10-27 10:00:05 - [INFO] - SUCESSO! Relatório salvo em: .../scan_2023...txt
 
 
-⚠️ Aviso Legal (Disclaimer)
+## Aviso Legal (Disclaimer)
 
 Esta ferramenta foi desenvolvida para fins educacionais e de administração de sistemas profissionais. O utilizador é responsável por garantir que possui permissão para auditar a rede alvo.
 
