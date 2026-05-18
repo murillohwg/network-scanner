@@ -62,6 +62,7 @@ Relatórios: Os resultados técnicos do Nmap são salvos na pasta relatorios_red
 2023-10-27 10:00:01 - [INFO] - IP Local detectado: 192.168.1.15
 2023-10-27 10:00:05 - [INFO] - SUCESSO! Relatório salvo em: .../scan_2023...txt
 
+---
 
 # Aviso Legal (Disclaimer)
 
